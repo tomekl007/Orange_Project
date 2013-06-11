@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lucene-analyzers-common-4.1.0">
+    <CLASSES>
+      <root url="jar://L:/Downloads/lucene-analyzers-common-4.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://L:/Downloads/lucene-analyzers-common-4.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
