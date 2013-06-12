@@ -7,11 +7,13 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import com.example.orangeapihackaton.analysis.luceneUtils.Indexer;
-import com.example.orangeapihackaton.analysis.luceneUtils.SimpleIndexer;
+import com.example.orangeapihackaton.analysis.luceneUtils.Searcher;
 import com.example.orangeapihackaton.database.DatabaseHelper;
 import com.example.orangeapihackaton.database.ResultList;
 import com.example.orangeapihackaton.model.Task;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
 public class MainActivity extends Activity {
@@ -20,6 +22,7 @@ public class MainActivity extends Activity {
 
     Indexer indexer;
     DatabaseHelper databaseHelper;
+    Searcher searcher;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -29,48 +32,64 @@ public class MainActivity extends Activity {
         //Injector injector = Guice.createInjector(new LuceneModule());
       //  System.out.println("-> injector : " + injector);
        // databaseHelper = new DatabaseHelper(this);
-        indexer = new SimpleIndexer();//injector.getInstance(Indexer.class);
-        System.out.println("init indexer thread for : " + indexer);
-        initIndexerThread();
+     //   databaseHelper.bogusDatabase();//for now init with some data
+     //   indexer = new SimpleIndexer();//injector.getInstance(Indexer.class);
+      //  searcher = new DestinationLocationSearcher();
+     //   System.out.println("init indexer thread for : " + indexer);
+     //   initIndexerThread();
 	}
 
     private void initIndexerThread() {
 
 
+        final List<Task> tasks = databaseHelper.getAllRecors();
+        System.out.println("all tasks : " + tasks);
+        databaseHelper.close();
 
 
                // final Intent intent = new Intent(this, MainActivity.class);
               //  intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                //Thread bg  = new Thread(new Runnable() {
-                //    int interval = 60 * 60 * 24;   //one day
-                 //   public void run() {
-                      //  while(true){
+                Thread bg  = new Thread(new Runnable() {
+                  //  int interval = 60 * 60 * 24;   //one day
+                    public void run() {
 
 
-                         //   try {
-                                List<Task> tasks = databaseHelper.getAllRecors();
-                                System.out.println("all tasks : " + tasks);
-                               databaseHelper.close();
-                               indexer.index(tasks);
-                               // Thread.currentThread().sleep(interval);
-                          //  } catch (InterruptedException e) {
-                                // TODO Auto-generated catch block
-                              //  e.printStackTrace();
-                         //   }
-                      //  }
+                               indexer.index(tasks,getTempDir());
+                    }
 
 
-
-
-
-                    //}
-             //   });
-             //   bg.start();
+               });
+               bg.start();
 
 
 
 
     }
+    private File getTempDir(){
+        File outputDir = this.getApplicationContext().getCacheDir(); // context being the Activity pointer
+        File outputFile=null;
+        try {
+            outputFile = File.createTempFile("index", "lucene", outputDir);
+        } catch (IOException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+
+        return outputDir;
+    }
+
+   /* private File createTempFile(){
+        FileOutputStream fOut = null;
+        try {
+            fOut = openFileOutput("lucene_index",
+                    MODE_WORLD_READABLE);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+        OutputStreamWriter osw = new OutputStreamWriter(fOut);
+        return fOut;
+
+
+    }  */
 
     @Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -90,6 +109,10 @@ public class MainActivity extends Activity {
         Intent intent = new Intent(this,ResultList.class);
         startActivity(intent);
 
+    }
+
+    public void showIndexResult(View view){
+         searcher.search(getTempDir());
     }
 
 

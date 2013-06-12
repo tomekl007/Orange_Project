@@ -15,13 +15,13 @@ import java.util.List;
 public class DatabaseHelper extends SQLiteOpenHelper {
 	
 	static int DATABASE_VERSION = 1;
-	static String DATABASE_NAME = "database_to_do.db";
+	static String DATABASE_NAME = "to_do_database.db";
 	
 	static String TABLE_NAME = "Task";
-	static String TEXT_COLUMN_NAME = "Text";
+	public static String TEXT_COLUMN_NAME = "Text";
 	//static String RESULTS_COLUMN_POINTS = "Points";
-	static String TEXT_COLUMN_ID = "_id";
-	static String DATE_COLUMN_NAME = "Date";
+	public static String TEXT_COLUMN_ID = "_id";
+	public static String DATE_COLUMN_NAME = "Date";
 	
 	String TAG = DatabaseHelper.class.getCanonicalName();
 
@@ -89,4 +89,23 @@ public class DatabaseHelper extends SQLiteOpenHelper {
          return tasks;
 	}
 
+    public void bogusDatabase() {
+
+        Log.d(TAG,"inserting bogus data");
+        List<String> texts = new LinkedList<String>();
+        texts.add("i go to gallery on 20:00");
+        texts.add("i have meeting at krakowska street at 15:00");
+
+        SQLiteDatabase database = this.getWritableDatabase();
+
+        for(String text : texts){
+        ContentValues contentValues = new ContentValues();
+
+        contentValues.put(TEXT_COLUMN_NAME, text);
+        contentValues.put(DATE_COLUMN_NAME, new Date().toString());
+
+
+        database.insert(TABLE_NAME , null, contentValues );}
+
+        }
 }

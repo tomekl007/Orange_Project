@@ -20,57 +20,25 @@
         <!-- Lucene -->
 
 
+        <!-- Lucene -->
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-core</artifactId>
-            <version>4.3.0</version>
+            <version>3.6.2</version>
         </dependency>
 
-
-
-
-        <!--         <dependency>
-        <groupId>org.apache.lucene</groupId>
-        <artifactId>lucene-snowball</artifactId>
-        <version>3.0.3</version>
-    </dependency>
-    -->
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-analyzers</artifactId>
             <version>3.6.2</version>
-
         </dependency>
+
 
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-queryparser</artifactId>
-            <version>4.3.0</version>
-        </dependency>
-
-
-
-        <dependency>
-            <groupId>org.apache.lucene</groupId>
-            <artifactId>lucene-facet</artifactId>
-            <version>4.3.0</version>
-        </dependency>
-
-
-
-                <dependency>
-        <groupId>org.apache.lucene</groupId>
-        <artifactId>lucene-snowball</artifactId>
-        <version>3.0.3</version>
-    </dependency>
-
-      <!--  <dependency>
-            <groupId>org.apache.lucene</groupId>
-            <artifactId>lucene-analyzers</artifactId>
             <version>3.6.2</version>
-        </dependency>-->
-
-
+        </dependency>
 
 
     </dependencies>

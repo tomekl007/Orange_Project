@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AndroidDesignerProfile">
     <option name="fullProfile">
       <profile>
@@ -27,32 +30,38 @@
     <list default="true" id="b0bc0160-86da-4041-b759-adccab89fffb" name="Default" comment="" />
     <ignored path="OrangeApiHackaton.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/pom.xml" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370972852288" ignored="false" />
+    <file path="/pom.xml" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1371030433903" ignored="false" />
     <file path="/Dummy.txt" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370959490186" ignored="false" />
-    <file path="/CreateNewTask.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370980033098" ignored="false" />
+    <file path="/CreateNewTask.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1371038263262" ignored="false" />
     <file path="$PROJECT_DIR$/../BouncerGame/gen/bouncer/logic/Manifest.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370954793078" ignored="false" />
     <file path="$PROJECT_DIR$/../BouncerGame/gen/bouncer/logic/R.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370954793078" ignored="false" />
     <file path="$PROJECT_DIR$/../BouncerGame/gen/bouncer/logic/BuildConfig.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370954794765" ignored="false" />
-    <file path="/DatabaseHelper.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370975683579" ignored="false" />
+    <file path="/DatabaseHelper.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1371035871042" ignored="false" />
     <file path="/ResultsList.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370955203500" ignored="false" />
     <file path="/ResultList.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370975718209" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370955643243" ignored="false" />
-    <file path="/MainActivity.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370982027856" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1371028090915" ignored="false" />
+    <file path="/MainActivity.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1371036276379" ignored="false" />
     <file path="/activity_result_list.xml" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370956425963" ignored="false" />
     <file path="/strings.xml" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370956494003" ignored="false" />
-    <file path="/fragment.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370978967403" ignored="false" />
+    <file path="/fragment.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1371037449362" ignored="false" />
     <file path="F:/UJ/PMD/GpsApiLow/gen/com/example/gpsapilow/BuildConfig.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370959495010" ignored="false" />
     <file path="/activity_create_new_task.xml" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370959690875" ignored="false" />
     <file path="/DatabaseTest.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370975992066" ignored="false" />
     <file path="/SearchingProcess.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370961790731" ignored="false" />
     <file path="/Indexer.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370963824033" ignored="false" />
-    <file path="/HelloLucene.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370974757618" ignored="false" />
-    <file path="/SimpleIndexer.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370977913674" ignored="false" />
+    <file path="/HelloLucene.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1371030661969" ignored="false" />
+    <file path="/SimpleIndexer.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1371036938354" ignored="false" />
     <file path="/BillingModule.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370965304788" ignored="false" />
     <file path="/TextFileIndexer.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370971545099" ignored="false" />
     <file path="/SearchServiceHib.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370966230532" ignored="false" />
-    <file path="/Task.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370975306854" ignored="false" />
+    <file path="/Task.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1371029412407" ignored="false" />
     <file path="/LuceneModule.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1370975739554" ignored="false" />
+    <file path="/DestinationLocationSearcher.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1371036110458" ignored="false" />
+    <file path="/Searcher.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1371035660975" ignored="false" />
+    <file path="/activity_main.xml" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1371036230720" ignored="false" />
+    <file path="/Analyzer.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1371037492561" ignored="false" />
+    <file path="/DestinationLocationAnalyzer.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1371038751846" ignored="false" />
+    <file path="/Destination.java" changelist="b0bc0160-86da-4041-b759-adccab89fffb" time="1371038711086" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +76,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -105,67 +113,67 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/MainActivity.java" line="30" class="com.example.orangeapihackaton.MainActivity" package="com.example.orangeapihackaton">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/MainActivity.java" line="53" class="com.example.orangeapihackaton.MainActivity" package="com.example.orangeapihackaton">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/SimpleIndexer.java" line="30" class="com.example.orangeapihackaton.analysis.luceneUtils.SimpleIndexer" package="com.example.orangeapihackaton.analysis.luceneUtils">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/MainActivity.java" line="31" class="com.example.orangeapihackaton.MainActivity" package="com.example.orangeapihackaton">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/MainActivity.java" line="33" class="com.example.orangeapihackaton.MainActivity" package="com.example.orangeapihackaton">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/MainActivity.java" line="56" class="com.example.orangeapihackaton.MainActivity$1" package="com.example.orangeapihackaton">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/SimpleIndexer.java" line="43" class="com.example.orangeapihackaton.analysis.luceneUtils.SimpleIndexer" package="com.example.orangeapihackaton.analysis.luceneUtils">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/MainActivity.java" line="35" class="com.example.orangeapihackaton.MainActivity" package="com.example.orangeapihackaton">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/MainActivity.java" line="38" class="com.example.orangeapihackaton.MainActivity" package="com.example.orangeapihackaton">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -240,7 +248,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/MainActivity.java" line="67" class="com.example.orangeapihackaton.MainActivity" package="com.example.orangeapihackaton">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/MainActivity.java" line="61" class="com.example.orangeapihackaton.MainActivity" package="com.example.orangeapihackaton">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -255,7 +263,67 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/SimpleIndexer.java" line="29" class="com.example.orangeapihackaton.analysis.luceneUtils.SimpleIndexer" package="com.example.orangeapihackaton.analysis.luceneUtils">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/SimpleIndexer.java" line="42" class="com.example.orangeapihackaton.analysis.luceneUtils.SimpleIndexer" package="com.example.orangeapihackaton.analysis.luceneUtils">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/database/DatabaseHelper.java" line="36" class="com.example.orangeapihackaton.database.DatabaseHelper" package="com.example.orangeapihackaton.database">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/database/DatabaseHelper.java" line="47" class="com.example.orangeapihackaton.database.DatabaseHelper" package="com.example.orangeapihackaton.database">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/database/DatabaseHelper.java" line="30" class="com.example.orangeapihackaton.database.DatabaseHelper" package="com.example.orangeapihackaton.database">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/database/DatabaseHelper.java" line="29" class="com.example.orangeapihackaton.database.DatabaseHelper" package="com.example.orangeapihackaton.database">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -271,6 +339,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -280,19 +349,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="41" selection-start="1809" selection-end="1809" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleIndexer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SimpleIndexer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/SimpleIndexer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="18" selection-start="3473" selection-end="3473" vertical-scroll-proportion="1.5735568">
+            <state line="87" column="6" selection-start="3352" selection-end="3352" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -300,64 +360,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LuceneModule.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/guice_configuration/LuceneModule.java">
+      <file leaf-file-name="DatabaseTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/tests/DatabaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/model/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultsList.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BouncerGame/src/bouncer/database/ResultsList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="99" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/database/DatabaseHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="33" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameOver.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BouncerGame/src/bouncer/logic/GameOver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="26" selection-start="1775" selection-end="1789" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultList.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/database/ResultList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="5" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Indexer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/Indexer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="10" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
+            <state line="23" column="13" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -366,7 +372,73 @@
       <file leaf-file-name="CreateNewTask.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/CreateNewTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="22" selection-start="546" selection-end="560" vertical-scroll-proportion="0.0">
+            <state line="47" column="24" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DestinationLocationAnalyzer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/customUtils/DestinationLocationAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="25" selection-start="743" selection-end="743" vertical-scroll-proportion="-0.60296845">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#413#421#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Destination.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/model/Destination.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="28" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Analyzer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/customUtils/Analyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="28" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="19" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/database/ResultList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="13" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/database/DatabaseHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="0" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Indexer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/Indexer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="10" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -382,22 +454,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/SearchingProcess.java" />
-        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/SearchingThread.java" />
-        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/Indexer.java" />
-        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/guice_configuration/BillingModule.java" />
-        <option value="E:/workspace-sts-3.1.0.RELEASE/RentalMovies/src/main/java/my/rental/mainP/services/SearchServiceHib.java" />
-        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/TextFileIndexer.java" />
-        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/HelloLucene.java" />
-        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/model/Task.java" />
-        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/database/ResultList.java" />
         <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/guice_configuration/LuceneModule.java" />
         <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/tests/DatabaseTest.java" />
+        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/model/Task.java" />
         <option value="$PROJECT_DIR$/dependeciesMOdule/pom.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/SimpleIndexer.java" />
-        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/CreateNewTask.java" />
+        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/HelloLucene.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/Searcher.java" />
         <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/database/DatabaseHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/DestinationLocationSearcher.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/SimpleIndexer.java" />
         <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/customUtils/Analyzer.java" />
+        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/CreateNewTask.java" />
+        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/customUtils/DestinationLocationAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/com/example/orangeapihackaton/model/Destination.java" />
       </list>
     </option>
   </component>
@@ -458,157 +530,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucene-core-4.3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucene-core-4.3.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucene" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="OrangeApiHackaton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucene-core-4.3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucene-core-4.3.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucene" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codecs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrangeApiHackaton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucene-core-4.3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucene-core-4.3.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucene" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codecs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucene42" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrangeApiHackaton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucene-core-4.3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucene-core-4.3.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrangeApiHackaton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucene-analyzers-common-4.1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucene-analyzers-common-4.1.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrangeApiHackaton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucene-analyzers-common-4.1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucene-analyzers-common-4.1.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrangeApiHackaton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrangeApiHackaton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrangeApiHackaton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrangeApiHackaton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -627,6 +549,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="orangeapihackaton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OrangeApiHackaton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OrangeApiHackaton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orangeapihackaton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -740,7 +684,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="luceneUtils" />
+              <option name="myItemId" value="customUtils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OrangeApiHackaton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OrangeApiHackaton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OrangeApiHackaton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OrangeApiHackaton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -780,12 +756,17 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.orangeapihackaton.analysis.customUtils" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.OrangeApiHackaton">
     <configuration default="false" name="OrangeApiHackaton" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
@@ -916,6 +897,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -941,19 +935,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1093,33 +1074,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="false" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925338" sideWeight="0.6705744" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925338" sideWeight="0.6705744" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.111389235" sideWeight="0.6708861" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32681242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3360184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32796317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3256617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25581396" sideWeight="0.6720368" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25520197" sideWeight="0.67433834" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930955" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33026466" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.6705744" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.6705744" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.111389235" sideWeight="0.6708861" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1187,116 +1168,129 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/Program Files (x86)/Android/android-sdk/sources/android-17/android/database/sqlite/SQLiteOpenHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/Searcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="24" selection-start="8636" selection-end="8636" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/HelloLucene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="31" selection-start="3059" selection-end="3059" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://L:/Downloads/lucene-4.3.0/lucene-4.3.0/core/lucene-core-4.3.0.jar!/org/apache/lucene/codecs/lucene42/Lucene42FieldInfosWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="175" selection-end="175" vertical-scroll-proportion="-3.4" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/TextFileIndexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/SearchingThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Program Files (x86)/Android/android-sdk/sources/android-17/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1400" column="4" selection-start="62919" selection-end="62946" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BouncerGame/src/bouncer/database/ResultsList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="99" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BouncerGame/src/bouncer/logic/GameOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="26" selection-start="1775" selection-end="1789" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/CreateNewTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="22" selection-start="546" selection-end="560" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/database/ResultList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="5" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/guice_configuration/LuceneModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+        <state line="13" column="43" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/model/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+        <state line="27" column="41" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/database/DatabaseHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/HelloLucene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="33" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.0">
+        <state line="55" column="30" selection-start="1828" selection-end="2246" vertical-scroll-proportion="-22.92">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_result_list.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="41" selection-start="1809" selection-end="1809" vertical-scroll-proportion="0.0">
+        <state line="42" column="47" selection-start="1734" selection-end="1734" vertical-scroll-proportion="-12.22">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/DestinationLocationSearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="18" selection-start="1176" selection-end="3995" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/Indexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
+        <state line="16" column="10" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/luceneUtils/SimpleIndexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="18" selection-start="3473" selection-end="3473" vertical-scroll-proportion="1.5735568">
+        <state line="87" column="6" selection-start="3352" selection-end="3352" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/database/ResultList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/database/DatabaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/model/Destination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="28" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/tests/DatabaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="13" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="19" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/CreateNewTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="24" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/customUtils/Analyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/orangeapihackaton/analysis/customUtils/DestinationLocationAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="25" selection-start="743" selection-end="743" vertical-scroll-proportion="-0.60296845">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#413#421#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1379,7 +1373,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.apache.lucene:lucene-core:4.3.0</last-edited>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,18 +1,15 @@
 package com.example.orangeapihackaton.analysis.luceneUtils;
 
-import com.example.orangeapihackaton.model.Task;
-
 import java.io.File;
-import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
  * User: Tomek
- * Date: 6/11/13
- * Time: 7:43 AM
+ * Date: 6/12/13
+ * Time: 4:13 AM
  * To change this template use File | Settings | File Templates.
  */
+public interface Searcher {
 
-public interface Indexer {
-     void index(List<Task> allRecors, File tempFile);
+    void search(File dirctoryWithIndex)   ;
 }

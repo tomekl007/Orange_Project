@@ -38,4 +38,9 @@ public class Task {
 
     private Date dateOfRecord;
     private Integer id;
+
+    @Override
+    public String toString() {
+        return "id: " + id + ", text: " + text + ", date : " + dateOfRecord;
+    }
 }
