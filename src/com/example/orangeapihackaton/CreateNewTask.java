@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
+import com.example.orangeapihackaton.analysis.alchemyUtils.AlchemyAnalyzer;
+import com.example.orangeapihackaton.analysis.alchemyUtils.DestinationAlchemyAnalyzer;
 import com.example.orangeapihackaton.analysis.customUtils.Analyzer;
 import com.example.orangeapihackaton.analysis.customUtils.DestinationLocationAnalyzer;
 import com.example.orangeapihackaton.database.DatabaseHelper;
@@ -14,6 +16,8 @@ public class CreateNewTask extends Activity {
     DatabaseHelper databaseHelper;
     String TAG = CreateNewTask.class.getCanonicalName();
     Analyzer analyzer;
+    AlchemyAnalyzer alchemyAnalyzer;
+    EditText viewToDo;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +25,9 @@ public class CreateNewTask extends Activity {
 		setContentView(R.layout.activity_create_new_task);
         databaseHelper = new DatabaseHelper(this);
         analyzer = new DestinationLocationAnalyzer();
+        alchemyAnalyzer = new DestinationAlchemyAnalyzer();
+        viewToDo = (EditText)findViewById(R.id.todoText);
+
 	}
 
 	@Override
@@ -35,17 +42,18 @@ public class CreateNewTask extends Activity {
         System.out.println("add record to Database");
         //String name=LoadPreferences(USER_NAME);
 
-        EditText viewToDo = (EditText)view.findViewById(R.id.todoTextTwo);
-        System.out.println("viewToDo : " + viewToDo);
+        String toDoText = viewToDo.getText().toString();
+        System.out.println("viewToDo : " + toDoText);
 
       //  Log.d(TAG, "adding : " + viewToDo.getText().toString());
-        String todoText = "i should go to School at 10:00";//viewToDo.getText().toString();
+        //String todoText = "i should go to School at 10:00";//viewToDo.getText().toString();
 
-        if(!(todoText.length()==0 || todoText.equals("empty") ))
-              databaseHelper.saveRecord(todoText);
+        if(!(toDoText.length()==0 || toDoText.equals("empty") ))
+              databaseHelper.saveRecord(toDoText);
 
 
-        analyzer.analyze(todoText);
+      //  analyzer.analyze(toDoText);
+        System.out.println("after analuzing get destination : " + alchemyAnalyzer.analyze(toDoText) );
 		
 	}
 

@@ -2,7 +2,10 @@ package com.example.orangeapihackaton.analysis.customUtils;
 
 import com.example.orangeapihackaton.model.Destination;
 
-import java.util.*;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -18,6 +21,7 @@ public class DestinationLocationAnalyzer implements Analyzer {
     public DestinationLocationAnalyzer(){
         keywords.add("at");
         keywords.add("on");
+
 
 
     }
