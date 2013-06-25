@@ -18,6 +18,7 @@ import java.util.List;
  * Time: 3:06 AM
  * To change this template use File | Settings | File Templates.
  */
+//class used to interaction with Alchemy API
 public class AlchemyCallFactory {
 
 

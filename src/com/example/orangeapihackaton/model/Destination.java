@@ -10,6 +10,7 @@ import java.util.GregorianCalendar;
  * Time: 4:50 AM
  * To change this template use File | Settings | File Templates.
  */
+//object representing destination place
 public class Destination {
     private String place;
     private Calendar destinationTime;

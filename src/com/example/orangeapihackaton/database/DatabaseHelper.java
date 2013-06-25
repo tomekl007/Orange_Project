@@ -8,10 +8,13 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 import com.example.orangeapihackaton.model.Task;
 
+import java.util.Calendar;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 
+//class used to all interactions with database. Client after using it should call close() method
+//on instance of this class
 public class DatabaseHelper extends SQLiteOpenHelper {
 	
 	static int DATABASE_VERSION = 1;
@@ -108,4 +111,34 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         database.insert(TABLE_NAME , null, contentValues );}
 
         }
+
+    public Cursor getRecordsForDate(Date date) {
+        SQLiteDatabase database = this.getReadableDatabase();
+
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(date);
+
+        int year = cal.get(Calendar.YEAR);
+        int month = cal.get(Calendar.MONTH);
+        int day = cal.get(Calendar.DAY_OF_MONTH);
+
+        System.out.println("to find : " + year +  " " + month + " " + day);
+
+        /*Cursor cursor = database.rawQuery("SELECT * FROM " +
+                TABLE_NAME + " WHERE (DATEPART(mm,Date) = " + month + ")" +
+                " ORDER BY " + DATE_COLUMN_NAME + " DESC", null);      */
+
+        Cursor cursor = database.query(TABLE_NAME,
+                new String[]{TEXT_COLUMN_ID,TEXT_COLUMN_NAME,DATE_COLUMN_NAME},
+                DATE_COLUMN_NAME+ " LIKE ?" , new String[]{"%"+day+"%"+year},null,null,null);
+
+
+
+
+        /*select * from record
+        where (DATEPART(yy, register_date) = 2009
+                AND DATEPART(mm, register_date) = 10
+                AND DATEPART(dd, register_date) = 10)   */
+        return cursor;
+    }
 }

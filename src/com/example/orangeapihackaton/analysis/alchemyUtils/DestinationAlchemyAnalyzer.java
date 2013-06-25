@@ -17,6 +17,7 @@ public class DestinationAlchemyAnalyzer implements AlchemyAnalyzer<Destination>{
     AlchemyCallFactory callFactory = new AlchemyCallFactory();
 
 
+    //method analuze input text then extract place, and arrival time
     @Override
     public Destination analyze(String text) {
         Map<OperationsAllowed,String> keywordsFinded = new HashMap<OperationsAllowed, String>();

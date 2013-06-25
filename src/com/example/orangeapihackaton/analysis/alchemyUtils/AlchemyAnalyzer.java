@@ -7,6 +7,7 @@ package com.example.orangeapihackaton.analysis.alchemyUtils;
  * Time: 3:03 AM
  * To change this template use File | Settings | File Templates.
  */
+
 public interface AlchemyAnalyzer<T> {
 
 

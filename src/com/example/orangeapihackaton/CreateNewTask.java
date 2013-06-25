@@ -1,6 +1,7 @@
 package com.example.orangeapihackaton;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -10,6 +11,9 @@ import com.example.orangeapihackaton.analysis.alchemyUtils.DestinationAlchemyAna
 import com.example.orangeapihackaton.analysis.customUtils.Analyzer;
 import com.example.orangeapihackaton.analysis.customUtils.DestinationLocationAnalyzer;
 import com.example.orangeapihackaton.database.DatabaseHelper;
+import com.example.orangeapihackaton.database.ResultList;
+import com.example.orangeapihackaton.model.Destination;
+import com.example.orangeapihackaton.show_route.AlarmManagerUtils;
 
 public class CreateNewTask extends Activity {
 
@@ -18,6 +22,7 @@ public class CreateNewTask extends Activity {
     Analyzer analyzer;
     AlchemyAnalyzer alchemyAnalyzer;
     EditText viewToDo;
+    AlarmManagerUtils alarmManagerUtils;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +32,7 @@ public class CreateNewTask extends Activity {
         analyzer = new DestinationLocationAnalyzer();
         alchemyAnalyzer = new DestinationAlchemyAnalyzer();
         viewToDo = (EditText)findViewById(R.id.todoText);
+        alarmManagerUtils = new AlarmManagerUtils(this);
 
 	}
 
@@ -53,8 +59,14 @@ public class CreateNewTask extends Activity {
 
 
       //  analyzer.analyze(toDoText);
-        System.out.println("after analuzing get destination : " + alchemyAnalyzer.analyze(toDoText) );
-		
+        Destination destination = (Destination) alchemyAnalyzer.analyze(toDoText);
+        System.out.println("after analuzing get destination : " + destination);
+        //tutaj wywolanie api wyszukujacego optymalna trase lineFInder(destination)
+        alarmManagerUtils.setAlarmAtSpecyficHour(0, 1 , "there is no best route for now");
+
+        Intent intent = new Intent(this, ResultList.class);
+        startActivity(intent);
+
 	}
 
     @Override

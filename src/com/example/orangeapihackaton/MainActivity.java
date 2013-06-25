@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import com.example.orangeapihackaton.analysis.luceneUtils.Indexer;
-import com.example.orangeapihackaton.analysis.luceneUtils.Searcher;
 import com.example.orangeapihackaton.database.DatabaseHelper;
 import com.example.orangeapihackaton.database.ResultList;
 import com.example.orangeapihackaton.model.Task;
@@ -22,7 +21,7 @@ public class MainActivity extends Activity {
 
     Indexer indexer;
     DatabaseHelper databaseHelper;
-    Searcher searcher;
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -111,9 +110,7 @@ public class MainActivity extends Activity {
 
     }
 
-    public void showIndexResult(View view){
-         searcher.search(getTempDir());
-    }
+
 
 
 }

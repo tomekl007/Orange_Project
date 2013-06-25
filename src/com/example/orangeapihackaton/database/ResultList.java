@@ -2,12 +2,14 @@ package com.example.orangeapihackaton.database;
 
 
 import android.app.Activity;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.view.Menu;
 import android.widget.ListView;
 import com.example.orangeapihackaton.R;
 import com.example.orangeapihackaton.model.Task;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -22,7 +24,8 @@ public class ResultList extends Activity {
 
     private static String TAG=ResultList.class.getCanonicalName();
     DatabaseHelper databaseHelper;
-    //ResultsListAdapter adapter;
+    HistoryAdapter adapter;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -30,13 +33,16 @@ public class ResultList extends Activity {
         setContentView(R.layout.activity_result_list);
 
         ListView listView = (ListView )findViewById(R.id.results_list);
+        //listView.addHeaderView(new TextView("todays tasks"));
 
         databaseHelper = new DatabaseHelper(this);
         List<Task> tasks = databaseHelper.getAllRecors();
         System.out.println(tasks);
 
-       // adapter = new ResultsListAdapter(this, cursor);
-      //  listView.setAdapter(adapter);
+        Cursor cursor = databaseHelper.getRecordsForDate(new Date());
+        adapter = new HistoryAdapter(this, cursor);
+        listView.setAdapter(adapter);
+
 
     }
 

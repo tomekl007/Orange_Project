@@ -9,6 +9,7 @@ import java.util.Date;
  * Time: 11:27 AM
  * To change this template use File | Settings | File Templates.
  */
+//object representing to do task submitted by user
 public class Task {
     private String text;
 

@@ -1,46 +1,46 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
 
-        >
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    xmlns:tools="http://schemas.android.com/tools"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-        <ListView
-                android:id="@+id/results_list"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:clickable="true"
+                android:layout_height="match_parent">
 
-                android:divider="#1DB4B7"
-                android:dividerHeight="0dp" />
-
-
-
-        <TextView
-                android:id="@+id/nameRecord"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="26dp"
-                android:text=""
-                android:textSize="20dp" />
-
-        <TextView
-                android:id="@+id/pointsRecord"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=""
-                android:textSize="15dp" />
-
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" android:id="@+id/top_control_bar">
+        <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="todays tasks"/>
     </RelativeLayout>
 
 
 
+    <ListView
+            android:id="@+id/results_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+
+            android:divider="#1DB4B7"
+            android:dividerHeight="0dp"
+            />
 
 
-</FrameLayout> 
+
+    <TextView
+            android:id="@+id/textRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:text=""
+            android:textSize="20dp" />
+
+
+
+</RelativeLayout>
+
+
+
+
+
+

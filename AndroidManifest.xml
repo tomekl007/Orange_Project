@@ -27,6 +27,7 @@
             android:label="@string/title_activity_create_new_task" >
         </activity>
         <activity android:name=".database.ResultList"/>
+        <activity android:name=".show_route.ShowBestRoute"/>
 
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
