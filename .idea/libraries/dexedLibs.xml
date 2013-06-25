@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://L:/Downloads/OpenStreetMaps_final/OpenStreetMaps/bin/dexedLibs/jsoup-1.7.2-3cc5ed05834d31d0540a3640d5b3ce43.jar!/" />
+      <root url="jar://L:/Downloads/OpenStreetMaps_final/OpenStreetMaps/bin/dexedLibs/commons-collections-3.2-fea763f3011f97693cd6f3ee44505810.jar!/" />
+      <root url="jar://L:/Downloads/OpenStreetMaps_final/OpenStreetMaps/bin/dexedLibs/android-support-v4-84e70242114f308fe68a8f10d94d8ff8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

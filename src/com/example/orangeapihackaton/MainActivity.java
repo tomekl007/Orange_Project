@@ -15,6 +15,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * activity in which user get simple menu with two options for now
+ */
 public class MainActivity extends Activity {
 
 

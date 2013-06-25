@@ -11,4 +11,9 @@
             android:layout_height="141dp"
             android:text="jestem"
             android:id="@+id/stringWithBestRoute"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ok"
+            android:id="@+id/button" android:layout_gravity="center" android:onClick="userConfirm"/>
 </LinearLayout>

@@ -1,9 +1,12 @@
 package com.example.orangeapihackaton.show_route;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
+import com.example.orangeapihackaton.MainActivity;
 import com.example.orangeapihackaton.R;
 
 /**
@@ -12,6 +15,12 @@ import com.example.orangeapihackaton.R;
  * Date: 6/25/13
  * Time: 4:18 AM
  * To change this template use File | Settings | File Templates.
+ */
+
+/**
+ * Activity which showing best route to Destination place.
+ * Currently presentation only as a String.
+ * In future, it should present route on 2d maps, i.e. Google Maps
  */
 public class ShowBestRoute extends Activity {
 
@@ -41,6 +50,23 @@ public class ShowBestRoute extends Activity {
 
         bestRouteText = (TextView)findViewById(R.id.stringWithBestRoute);
         bestRouteText.setText(routeText);
+
+    }
+
+
+    public void userConfirm(View view){
+    Intent intent = new Intent(this, MainActivity.class);
+    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+    startActivity(intent);
+
+    backgroundApp();
+
+
+     }
+
+    public void backgroundApp(){
+
+        this.moveTaskToBack(true);
 
     }
 }

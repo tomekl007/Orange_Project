@@ -23,14 +23,14 @@ public class AlarmManagerUtils {
     }
 
 
+    /**
+     *
+     *
 
-
-
-
-
-    //takes time offset from "now" in which showBestRoute activity should show up,
-    //and string containing best route description
-
+     * @param hourOffset   hour offset from "now"
+     * @param minuteOffset minut offset from "now"
+     * @param bestRouteDescription string contating best route description
+     */
     public void setAlarmAtSpecyficHour(int hourOffset, int minuteOffset, String bestRouteDescription){
 
 

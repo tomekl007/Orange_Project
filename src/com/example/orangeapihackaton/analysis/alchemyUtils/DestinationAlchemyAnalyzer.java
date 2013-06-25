@@ -12,6 +12,10 @@ import java.util.Map;
  * Time: 3:03 AM
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * analyzer which analyze input for Destination place, and meeting/arrival Time
+ */
 public class DestinationAlchemyAnalyzer implements AlchemyAnalyzer<Destination>{
 
     AlchemyCallFactory callFactory = new AlchemyCallFactory();

@@ -8,6 +8,11 @@ package com.example.orangeapihackaton.analysis.alchemyUtils;
  * To change this template use File | Settings | File Templates.
  */
 
+/**
+ * this interface should be implemented by all specific analyzers
+ * which use AlchemyApi
+ * @param <T>
+ */
 public interface AlchemyAnalyzer<T> {
 
 

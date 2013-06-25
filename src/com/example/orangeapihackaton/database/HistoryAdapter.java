@@ -9,6 +9,10 @@ import android.widget.CursorAdapter;
 import android.widget.TextView;
 import com.example.orangeapihackaton.R;
 
+/**
+ * adapter used to presenting history of tasks in
+ * ListView component
+ */
 public class HistoryAdapter extends CursorAdapter {
     public static String TEXT_COLUMN_NAME = "Text";
 

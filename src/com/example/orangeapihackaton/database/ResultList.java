@@ -19,6 +19,10 @@ import java.util.List;
  * Time: 5:54 AM
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * activity presenting history of task submitted by user
+ */
 public class ResultList extends Activity {
 
 

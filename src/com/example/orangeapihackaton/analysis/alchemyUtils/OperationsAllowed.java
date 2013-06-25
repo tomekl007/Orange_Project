@@ -7,6 +7,10 @@ package com.example.orangeapihackaton.analysis.alchemyUtils;
  * Time: 3:08 AM
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * enum with operations allowed when calling AlchemyCallFactory.SendAlchemyCall
+ */
 public enum OperationsAllowed {
     CONCEPT, ENTITY, KEYWORD, TEXT, SENTIMENT, HOUR
 }

@@ -13,8 +13,12 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 
-//class used to all interactions with database. Client after using it should call close() method
-//on instance of this class
+/**
+ *  class used to all interactions with database. Client after stop using it,
+ *  should call close() method
+    on instance of this class
+ */
+
 public class DatabaseHelper extends SQLiteOpenHelper {
 	
 	static int DATABASE_VERSION = 1;
