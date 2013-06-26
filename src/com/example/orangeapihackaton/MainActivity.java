@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
         databaseHelper.close();
 
 
-               // final Intent intent = new Intent(this, MainActivity.class);
+               // final Intent intent = new Intent(this, MainActivity_2.class);
               //  intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 Thread bg  = new Thread(new Runnable() {
                   //  int interval = 60 * 60 * 24;   //one day

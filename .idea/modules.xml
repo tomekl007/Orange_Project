@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://L:/Downloads/OpenStreetMaps_final/OpenStreetMaps/OpenStreetMaps.iml" filepath="L:/Downloads/OpenStreetMaps_final/OpenStreetMaps/OpenStreetMaps.iml" />
       <module fileurl="file://$PROJECT_DIR$/OrangeApiHackaton.iml" filepath="$PROJECT_DIR$/OrangeApiHackaton.iml" />
       <module fileurl="file://$PROJECT_DIR$/dependeciesMOdule/dependeciesMOdule.iml" filepath="$PROJECT_DIR$/dependeciesMOdule/dependeciesMOdule.iml" />
     </modules>

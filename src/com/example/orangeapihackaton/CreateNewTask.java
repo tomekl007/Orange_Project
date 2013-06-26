@@ -1,10 +1,5 @@
 package com.example.orangeapihackaton;
 
-import Data.BusStop;
-import Data.Line;
-import Route.Algorithm;
-import Threads.BusStopDataThread;
-import Threads.LineDataThread;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,6 +15,11 @@ import com.example.orangeapihackaton.database.DatabaseHelper;
 import com.example.orangeapihackaton.database.ResultList;
 import com.example.orangeapihackaton.model.Destination;
 import com.example.orangeapihackaton.show_route.AlarmManagerUtils;
+import openstreetmaps.Data.BusStop;
+import openstreetmaps.Data.Line;
+import openstreetmaps.Route.Algorithm;
+import openstreetmaps.Threads.BusStopDataThread;
+import openstreetmaps.Threads.LineDataThread;
 
 /**
  * acitivity responsible for creating new task, adding it to database,
